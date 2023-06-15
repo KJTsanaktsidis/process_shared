@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    process_shared (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    extconf_compile_commands_json (0.0.6)
+    minitest (5.18.0)
+    rake (13.0.6)
+    rake-compiler (1.2.1)
+      rake
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  extconf_compile_commands_json
+  minitest (~> 5.18)
+  process_shared!
+  rake (~> 13)
+  rake-compiler (~> 1.2)
+
+BUNDLED WITH
+   2.4.10

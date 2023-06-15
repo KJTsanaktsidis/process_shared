@@ -1,0 +1,5 @@
+tmp/
+*.so
+*.bundle
+compile_commands.json
+.vscode
